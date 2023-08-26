@@ -334,7 +334,15 @@
   }
   .profile-container {
     display: block;
-    
+ 
+  }
+  
+  .info-container{
+    width: 90%;
+  }
+  .profile-pic{
+  width:100px;
+margin-bottom: 2rem;
   }
 }
 
