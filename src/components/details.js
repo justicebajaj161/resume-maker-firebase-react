@@ -143,7 +143,7 @@ if (resumeData.objective.split(" ").length < 100) {
           </label>
           <label>
             Skills:
-            <input type="text" name="skills" placeholder="Skills (comma separated)" value={resumeData.skills} onChange={handleChange} />
+            <textarea type="text" name="skills" placeholder="Skills (comma separated)" value={resumeData.skills} onChange={handleChange} ></textarea>
           </label>
         </div>
         <div className="submit-row">
